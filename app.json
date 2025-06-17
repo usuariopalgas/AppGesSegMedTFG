@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Gestión y seguimiento de medicación",
+    "slug": "AppGestionMedicamentos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoAPP.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LogoAPP.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.AppGestionMedicamentos",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogoAPP.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "com.anonymous.AppGestionMedicamentos"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c0148580-aa34-443d-9cf6-a0ea59a13e08"
+      }
+    }
+  }
+}
